@@ -1,0 +1,17 @@
+weather = input(" do you like summer or winter more")
+weather2 = input(" do you like relaxing or sports")
+if weather == "winter": 
+    if weather2 == "sports": 
+        print("you should go skiing") 
+    elif weather2 == "relaxing":
+        print("you should go ice fishing") 
+    else: 
+        print("not an option")
+elif weather == "summer": 
+    if weather2 == "sports": 
+        print("you should try swimming") 
+    elif weather2 == "relaxing": 
+        print("you should go read a book by the beach")
+    else: 
+        print("not an option sorry :)")
+ 
